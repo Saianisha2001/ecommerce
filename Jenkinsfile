@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git credentialsId: '4cc785e9-441d-4818-a248-2bfb2148004d', url: 'https://github.com/VardhanNS/phpmysql-app.git'
+        git credentialsId: 'e2d29603-c71e-4c90-84cd-a602f1f9afd6', url: 'https://github.com/Saianisha2001/ecommerce.git'
     }
     
     stage('Run Docker Compose File')
